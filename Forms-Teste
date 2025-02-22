@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade- Forms Teste</title>
+
+
+</head>
+<style type= text/css>
+body{
+    width: 400px;
+    height: 300px;
+    background-color:lightblue;
+    justify-content:center;
+    align-items: center;
+
+}
+</style> 
+<body>
+
+   
+    <form>
+        <h1> Formulário de Cadastro de Cliente </h1> 
+        <input type="text" id="fname" placeholder="Name Completo" size="30" required> <br> 
+        <input id="email" placeholder="E-mail" pattern=".+@example.com" size="30" required> <br>
+        <input type="tel" id="ftel" class="input-padrão" required placeholder="(XX) XXXXX-XXXX" size="30" required> <br>
+        <input type= "date" id="fdate" size="30" required> <br>
+        <input type="checkbox" id="check.termos" required/><a>TERMOS DE USO</a> <br>
+        <input type="submit" required>Enviar Formulário</input> <br>
+        
+ 
+    </form>
+
+    <form> 
+        <h1> Formulário de Reserva de Sala</h1> <br>
+        <input type= "date" id="fdate" size="30" required/> <a>Data da reserva</a> <br>
+        <input type="time" id="ftime" size="30" required/><a>Horário de Início</a> <br>
+        <input type="time" id="ftime" size="30" required/><a>Horário de Término</a> <br>
+        <select name="Tipo de Sala"> <br>
+            <option value="1"> Reunião</option>
+            <option value="1"> Treinamento </option>
+            <option value="3"> Individual</option>
+        </select>
+        <input id="pessoa" name="cowbell" min="0" placeholder="Quantidade de participantes"> <br>
+        <input type="submit" required> Enviar Relatório </input>
+
+    </form>
+
+
+</head>
+<body>
+    <form>
+        <h1> Formulário de Feedback do Usuário </h1>
+        <input type="text" id="fname" placeholder="Name" size="30" height="50">
+        <textarea id="Comentário" placeholder="Digite um comentário" max="20" size="30"></textarea> <br>
+        <input type="range" min="1" max="10"> <a>Pesquisa de satisfação</a> <br>
+       <input type="submit" required> Enviar Relatório </input>        
+        
+
+    
+</body>
+</html> 
+
+
